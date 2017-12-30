@@ -4,8 +4,6 @@ import datetime, re
 class NewYear:
     def __init__(self):
         self.window = Tk()
-        x = (self.window.winfo_screenwidth() / 2) - (400 / 2)
-        y = (self.window.winfo_screenheight() / 2) - (500 / 2)
         self.window.title("Contador do Ano Novo")
         self.window.resizable(False,False)
         self.create_widgets()
